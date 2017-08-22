@@ -17,7 +17,7 @@ $args = [
 	'fl-builder-template-category' => get_the_category_by_ID($settings->saved_module_category)
 ]; 
 ?>
-<div class="home-slider">
+<div class="bb-saved-module-slider">
 	<?php FLBuilder::render_query($args); ?>
 </div>
 <?php endif; ?>

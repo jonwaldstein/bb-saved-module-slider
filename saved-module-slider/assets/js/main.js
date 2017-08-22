@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-	jQuery('.home-slider').slick({
+	jQuery('.bb-saved-module-slider').slick({
 		dots: false,
 		slide: '.fl-builder-template',
 		arrows: false
