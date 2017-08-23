@@ -14,7 +14,9 @@
 if ( !empty(($settings->saved_module_category)) ):
 $args = [
 	'post_type' => 'fl-builder-template',
-	'fl-builder-template-category' => get_the_category_by_ID($settings->saved_module_category)
+	'fl-builder-template-category' => get_the_category_by_ID($settings->saved_module_category),
+	'orderby' => 'menu_order',
+	'order' => 'ASC'
 ]; 
 ?>
 <div class="bb-saved-module-slider">
