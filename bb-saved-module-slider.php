@@ -16,6 +16,8 @@ define( 'ZGM_MODULE_URL', plugins_url( '/', __FILE__ ) );
 function zgm_load_module() {
 	if ( class_exists( 'FLBuilder' ) ) {
 	    require_once 'saved-module-slider/saved-module-slider.php';
+	    require_once 'page-title/page-title.php';
+	    require_once 'page-title-simple/page-title-simple.php';
 	}
 }
 add_action( 'init', 'zgm_load_module' );
