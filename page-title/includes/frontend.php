@@ -28,9 +28,11 @@ function title() {
 }
 
 $page_title_tag = $settings->page_title_tag;
+$custom_page_title = $settings->custom_page_title;
+$page_title = !empty($custom_page_title) ? $custom_page_title : title();
 
 if (!empty($page_title_tag)){
-	echo sprintf('<%s>%s</%s>',$page_title_tag,title(),$page_title_tag);
+	echo sprintf('<%s>%s</%s>',$page_title_tag,$page_title,$page_title_tag);
 }
 
 

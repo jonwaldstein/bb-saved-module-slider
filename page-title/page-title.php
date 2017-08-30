@@ -50,6 +50,10 @@ FLBuilder::register_module('ZGMPageTitle', array(
                             'p'      => __( 'p', 'fl-builder' )
                         )
                     ),
+                     'custom_page_title'     => array(
+                        'type'          => 'text',
+                        'label'         => __( 'Custom Page Title', 'fl-builder' ),
+                    ),
                 )
             )
         )
