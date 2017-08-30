@@ -17,7 +17,7 @@ class ZGMSavedModuleSlider extends FLBuilderModule {
         parent::__construct(array(
             'name'          => __('Saved Module Slider', 'fl-builder'),
             'description'   => __('Create a slider from saved modules.', 'fl-builder'),
-            'category'		=> __('Advanced Modules', 'fl-builder'),
+            'category'		=> __('ZGM Modules', 'fl-builder'),
             'dir'           => ZGM_MODULE_DIR . 'saved-module-slider/',
             'url'           => ZGM_MODULE_URL . 'saved-module-slider/',
             'editor_export' => true, // Defaults to true and can be omitted.

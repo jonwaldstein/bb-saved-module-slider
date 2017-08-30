@@ -1,0 +1,10 @@
+.slick-arrow{
+	position: absolute;
+	top: 50%;
+}
+.slick-arrow-right{
+	right: 0;
+}
+.slick-arrow-left{
+	left: 0;
+}
